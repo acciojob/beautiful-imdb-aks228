@@ -1,2 +1,21 @@
+.moviePic{
+	background-image:url("https://cdn.pixabay.com/photo/2016/01/22/08/20/film-1155439_640.jpg");
+height:500px;
+	width:100%
+	opacity:0.5;
+}
+.movieDetail
+{
+	font-size:1rem;
+	text-align:center;
+}
+.movieDetail p{
+	width:100%;
+	position: relative;
+   top: 20px;
+	
+}
+
+
 
 /* Your CSS Code here. */
