@@ -1,20 +1,26 @@
-.moviePic{
-	background-image:url("https://cdn.pixabay.com/photo/2016/01/22/08/20/film-1155439_640.jpg");
-height:500px;
-	width:100%
-	opacity:0.5;
+.moviePic {
+    background-image: url("https://cdn.pixabay.com/photo/2016/01/22/08/20/film-1155439_640.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: 0.9;
 }
 .movieDetail
 {
-	font-size:1rem;
-	text-align:center;
+	text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+    padding: 10px;
+    border-radius: 10px;
 }
-.movieDetail p{
-	width:100%;
-	position: relative;
-   top: 20px;
-	
-}
+
 
 
 
